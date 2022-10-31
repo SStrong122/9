@@ -1,0 +1,233 @@
+*
+.page{
+    width: 1440px;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    margin: 13px auto 15px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_ul{
+    display: flex;
+    gap: 62px;
+}
+.header_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+.header_button{
+    height: 40px;
+    width: 157px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color:#FFFFFF
+}
+.header_button:hover{
+    background-color:#ba9ff3; 
+    cursor: pointer;
+    transition: 2s;
+}
+
+
+.container_footer{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin: 13px auto 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 156px;
+    top: 1953px;
+    background: #20003C;
+    border-radius: 0px;
+}
+.footer_ul{
+    display: flex;
+    gap: 74px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-left: 106px ;
+}
+.footer_link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;;
+    text-decoration: none;
+}
+.footer_button{
+    height: 40px;
+    width: 157px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 95px;
+    margin-left: 0px;
+    color:#FFFFFF
+}
+.footer_button:hover{
+    background-color:#ba9ff3; 
+    cursor: pointer;
+    transition: 2s;
+}
+.main{
+    background: #F6BED9;
+    border-radius: 0px;
+}
+.main_title{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    max-width: 470px;
+}
+.main_title_violete{
+    color: #6F2DFF;
+}
+.main_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 438px;
+    margin: 18px 0;
+}
+.main_text_bold{
+    font-weight: 900;
+}
+.main_input{
+    height: 45px;
+    width: 268;
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    padding-left: 26px;
+}
+.main_button{
+    height: 40px;
+    width: 157px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 95px;
+    margin-left: 0px;
+    color:#FFFFFF
+}
+.section_grow{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+    margin-top: 185px;
+    margin-bottom: 167px;
+
+}
+.section_two {
+    display: flex;
+    margin-left: 95px;
+    max-width: 1250px;
+    margin-top: 136px;
+    margin-bottom: 136px;
+    background: #FFFFFF;
+
+}
+.tittle_river{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+.foto_river{
+    margin-right: 35px;
+}
+.text_river{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6F2CFF;
+    max-width: 219px;
+    margin-left: 58px;
+}
+.hand{
+    margin-top: 59px;
+    margin-bottom: 58px;
+}
+
+.section_three{
+    margin: 0px;
+ }
+ .qubit{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 45px;    
+     text-align: center;    
+     color: #000000;
+     margin-bottom: 80px;
+     
+ }
+ .section_three_flex{
+     display: flex;
+     margin-left: 109px;
+     gap: 150px;
+     margin-bottom: 136px;
+ }
+ .frame_foto{
+     margin-left: 130px;
+ }
+ .tittle_three{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 19px;
+     line-height: 23px;    
+     text-align: center;    
+     color: #000000;
+     margin-bottom: 16px;
+     margin-top: 42px;
+ }
+ .text_three{
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 15px;
+     line-height: 22px;    
+     text-align: center;    
+     color: #000000;
+     max-width: 316px;
+ }
